@@ -1,9 +1,10 @@
 function updateOutput() {
     var a = parseFloat(document.getElementById("aweather_base").value)
     var s = parseFloat(document.getElementById("steggie_base").value)
+    var b = parseFloat(document.getElementById("shared_base").value)
     var t = parseFloat(document.getElementById("total").value)
 
-    var v = roundUp(t*(s/(a+s)-0.5))
+    var v = roundUp(t*((s+b/2)/(a+b+s)-0.5))
 
     if (v > 0) {
       document.getElementById("output").innerHTML =
