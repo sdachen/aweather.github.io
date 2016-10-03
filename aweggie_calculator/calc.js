@@ -8,10 +8,10 @@ function updateOutput() {
 
     if (v > 0) {
       document.getElementById("output").innerHTML =
-        "Steggie should directly pay Awaether " + roundUp(v.toString()) + " dollars."
+        "Steggie should directly pay Awaether " + roundFloat(v.toString()) + " dollars."
     } else {
       document.getElementById("output").innerHTML =
-        "Awaether should directly pay Steggie " + -1 * roundUp(v.toString()) + " dollars."
+        "Awaether should directly pay Steggie " + -1 * roundFloat(v.toString()) + " dollars."
     }
 
     console.log(a)
@@ -22,6 +22,6 @@ function updateOutput() {
 }
 
 
-function roundUp(d) {
-  return Math.ceil(d * 100) / 100
+function roundFloat(d) {
+  return Math.round(d * 100) / 100
 }
