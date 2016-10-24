@@ -10,7 +10,7 @@ function updateOutput() {
     var tipString = document.getElementById("tipPercentage").value
     var tipRate = parseFloat(tipString)/100
     var tip = roundFloat(sum*tipRate)
-    var totalWithTip = total + tip
+    var totalWithTip = roundFloat(total + tip)
 
 
     var v = roundFloat(totalWithTip*((s+b/2)/(a+b+s)-0.5))
