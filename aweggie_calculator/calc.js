@@ -1,10 +1,14 @@
 function updateOutput() {
+
+    var taxRate = 0.0925
     var a = parseFloat(document.getElementById("aweather_base").value)
     var s = parseFloat(document.getElementById("steggie_base").value)
     var b = parseFloat(document.getElementById("shared_base").value)
-    var t = parseFloat(document.getElementById("total").value)
+    var sum = a+s+b
+    var tax = roundFloat((sum*taxRate))
+    var total = roundFloat((sum*(1+taxRate)))
 
-    var v = roundFloat(t*((s+b/2)/(a+b+s)-0.5))
+    var v = roundFloat(total*((s+b/2)/(a+b+s)-0.5))
 
     if (v > 0) {
       document.getElementById("output").innerHTML =
@@ -14,11 +18,18 @@ function updateOutput() {
         "Awaether should directly pay Steggie " + -1 * roundFloat(v.toString()) + " dollars."
     }
 
-    console.log(a)
-    console.log(s)
-    console.log(t)
-    console.log(a+s)
-
+    document.getElementById("sum").innerHTML =
+        "Sum " + sum.toString()
+    document.getElementById("tax").innerHTML =
+        "Tax " + tax.toString()
+    document.getElementById("total").innerHTML =
+        "Total " + total.toString()
+    document.getElementById("tip").innerHTML =
+        "Total with 15% Tip " + (sum * 0.15 + total).toString()
+    document.getElementById("tip").innerHTML =
+        "Total with 18% Tip " + (sum * 0.18 + total).toString()
+    document.getElementById("tip").innerHTML =
+        "Total with 20% Tip " + (sum * 0.20 + total).toString()
 }
 
 
