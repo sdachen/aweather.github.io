@@ -7,8 +7,13 @@ function updateOutput() {
     var sum = a+s+b
     var tax = roundFloat((sum*taxRate))
     var total = roundFloat((sum*(1+taxRate)))
+    var tipString = document.getElementById("tipPercentage").value
+    var tipRate = parseFloat(tipString)/100
+    var tip = sum * tipRate
+    var totalWithTip = total + tip
 
-    var v = roundFloat(total*((s+b/2)/(a+b+s)-0.5))
+
+    var v = roundFloat(totalWithTip*((s+b/2)/(a+b+s)-0.5))
 
     if (v > 0) {
       document.getElementById("output").innerHTML =
@@ -24,12 +29,11 @@ function updateOutput() {
         "Tax " + tax.toString()
     document.getElementById("total").innerHTML =
         "Total " + total.toString()
-    document.getElementById("tip").innerHTML =
-        "Total with 15% Tip " + (sum * 0.15 + total).toString()
-    document.getElementById("tip").innerHTML =
-        "Total with 18% Tip " + (sum * 0.18 + total).toString()
-    document.getElementById("tip").innerHTML =
-        "Total with 20% Tip " + (sum * 0.20 + total).toString()
+    document.getElementById("tipAmount").innerHTML =
+        "Tip " + tip.toString()
+    document.getElementById("totalWithTip").innerHTML =
+        "Total with " + tipString + "% Tip " + totalWithTip.toString()
+
 }
 
 
