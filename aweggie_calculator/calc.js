@@ -4,12 +4,12 @@ function updateOutput() {
     var a = parseFloat(document.getElementById("aweather_base").value)
     var s = parseFloat(document.getElementById("steggie_base").value)
     var b = parseFloat(document.getElementById("shared_base").value)
-    var sum = a+s+b
+    var sum = a + s + b
     var tax = roundFloat((sum*taxRate))
-    var total = roundFloat((sum*(1+taxRate)))
+    var total = roundFloat((sum*(1 + taxRate)))
     var tipString = document.getElementById("tipPercentage").value
     var tipRate = parseFloat(tipString)/100
-    var tip = sum * tipRate
+    var tip = roundFloat(sum*tipRate)
     var totalWithTip = total + tip
 
 
