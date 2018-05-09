@@ -1,0 +1,27 @@
+---
+layout: single
+title:  "Test post"
+date:   2018-04-07 11:59:23 -0700
+categories: scala
+---
+{% highlight c++ %}
+val list = List(1,2,3,4,5)
+def add3(a: Int) = a + 3
+val mapped = list.map(add3)
+val str = "this is a string"
+val six = add3(3)
+// comment
+// comment
+// commentt
+// comment
+// comment
+// this is a comment
+// comment
+val a = 3
+{% endhighlight %}
+
+<pre>
+  <code class="ruby">
+    puts "hello"
+  </code>
+</pre>
