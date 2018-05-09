@@ -21,11 +21,11 @@ Features of real estate investments
 
 Ways to invest in real estate
 
-| Direct        | Non-listed funds  | Securitized  |
-| ------------- | ------------- | ----- |
-| Own      | Private collective veichle | Public collective veichle |
-| Full control, portfolio diversifier | Low unit value, portfolio diversifier | Low unit value, liquidity |
-| Illiquidity, high unit value | Illiquidity | Correlated with stocks |
+| | Direct | Non-listed funds | Securitized |
+| --- | --- | --- | --- |
+| How? | Own      | Private collective veichle | Public collective veichle |
+| Pros | Full control, portfolio diversifier | Low unit value, portfolio diversifier | Low unit value, liquidity |
+| Cons | Illiquidity, high unit value | Illiquidity | Correlated with stocks |
 
 Retun and risk compared with stocks and bonds 
 
@@ -40,7 +40,7 @@ The following table is computed over 1990-2015 for U.S.
 
 - Risk and return from high to low: stocks > real estate > bonds
 
-![Stocks, Bonds, Real Estate Efficient Frontier]({{ "/assets/img/investment-management/stock-bond-real-estate-efficient-frontier.png" | absolute_url }})
+![Stocks, Bonds, Real Estate Efficient Frontier](/assets/img/investment-management/stock-bond-real-estate-efficient-frontier.png)
 A few observations
 - Real estate should not take more than 50% of the investment to be on the efficient frontier.
 - Without real estate, the only way to be on the efficient frontier is 100% stocks.
