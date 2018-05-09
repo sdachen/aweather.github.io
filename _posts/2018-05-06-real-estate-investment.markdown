@@ -40,7 +40,7 @@ The following table is computed over 1990-2015 for U.S.
 
 - Risk and return from high to low: stocks > real estate > bonds
 
-![Stocks, Bonds, Real Estate Efficient Frontier](/assets/img/investment-management/stock-bond-real-estate-efficient-frontier.png)
+![Stocks, Bonds, Real Estate Efficient Frontier](/assets/img/investment-management/stock-bond-real-estate-efficient-frontier.PNG)
 A few observations
 - Real estate should not take more than 50% of the investment to be on the efficient frontier.
 - Without real estate, the only way to be on the efficient frontier is 100% stocks.
