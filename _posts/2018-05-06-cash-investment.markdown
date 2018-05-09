@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Cash investments"
+title:  "Cash Investments"
 date:   2018-05-06 17:15:52 -0700
 categories: finance
 ---
