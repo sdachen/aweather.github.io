@@ -35,3 +35,6 @@ Strategies to reduce biases for reviews:
 - Keep a log of assets that you evaluated but decided not to buy or sell.
 
 Although being rational does not guarantee that returns are maximized, the stock market in the long term is tied to the fundamentals of the economy and being rational helps in ensuring investments are based on fundamentals.
+
+
+Summarized from [Meeting Investors' Goals](https://www.coursera.org/learn/meeting-investors-goals).
