@@ -1,7 +1,7 @@
 ---
 layout: single
-title:  "Hedge Funds"
-date:   2018-05-08 22:45:52 -0700
+title: Hedge Funds
+date: 2018-05-08 22:45:52 -0700
 categories: finance
 ---
 

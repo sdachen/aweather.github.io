@@ -1,27 +1,28 @@
 ---
 layout: single
-title:  "Hedge Funds"
-date:   2018-05-08 22:22:52 -0700
+title: When to Buy and Sell
+date: 2018-05-15 19:31:50 -0700
 categories: finance
 ---
 
-Hedge funds try to deliver positive returns irrespective of market conditions.
+Buying & selling
+- We are tempted to buy because we highly value the company and share price has been performing well recently.
+- The right question to ask for oneself of whether to sell is: "If I had X dollars, would I invest in the stock?""
+- Should not look at the return you made when selling. 
+- We have a bias of refraining from exiting loss-making investments.
 
-No need to be fully invested (traditional funds needs to be fully invested)
-Eat your own cooking
+Valuation
+- Look at P/E ratio. Compare the P/E ratio with the history of the stock and the sector. 
+- Also understand the company's strategy.
 
-Leverage
-- A higher leverage does not neccessary mean higher risk. Global risk is a function of underlying risk and leverage.
+Investment profile
+- Financial situation
+- Risk tolerance
+- Investment horizon
 
-Short selling
-- Being wrong on short selling has a higher risk, since the higher price means it becomes a larger percentage of your portfolio.
+Decision process for investment
+- Information gathering
+- Information processing
+- Decision making
 
-Long-short equity funds
-- Long good positions and short bad positions
-- Return is average of the increase of value in long positions and decrease of value in short positions.
-- Volatility is lower for long-short funds than investing purly in long or short positions, and therefore sharpe ratio is higher.
-
-Management fee and performance fee
-
-
-Summarized from [Understanding Financial Markets](https://www.coursera.org/learn/understanding-financial-markets).
+Summarized from [Meeting Investors' Goals](https://www.coursera.org/learn/meeting-investors-goals).
