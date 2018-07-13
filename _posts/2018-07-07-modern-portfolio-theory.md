@@ -34,4 +34,4 @@ Assumptions of MPT
 - MPT also assumes symmetric utility functions (gaining $10 and losing $10 has the same impact on the magnitude of the utility function.)
 - In general, investors under-diversity, likele due to overconfidence and financial illiteracy.
 
-Summarized from [Meeting Investors' Goals](https://www.coursera.org/learn/portfolio-risk-management).
+Summarized from [Portfolio Risk Management](https://www.coursera.org/learn/portfolio-risk-management).

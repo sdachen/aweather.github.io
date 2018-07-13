@@ -45,4 +45,4 @@ Valuation & Timing
 - Switching from risky assets to risk free assets at the right time can give high rewards. 
 - When consumer confidence year over year change falls below -20%, there is a recession. Consumer confidence can be found [here](https://www.investing.com/economic-calendar/cb-consumer-confidence-48).
 
-Summarized from [Meeting Investors' Goals](https://www.coursera.org/learn/portfolio-risk-management).
+Summarized from [Portfolio Risk Management](https://www.coursera.org/learn/portfolio-risk-management).
