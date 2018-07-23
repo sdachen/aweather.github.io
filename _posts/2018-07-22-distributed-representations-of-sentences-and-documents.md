@@ -17,7 +17,7 @@ mathjax: true
 
 ## Algorithm
 - The algorithm maintains dictionary from words to word vectors and paragraphs to paragraph vectors.
-- The learning problem is similar to continuous bag-of-words. We build a model to predict a word given the word vector of the surrounding words plus the paragraph vector which the words are from. See image below for the model.
+- The learning problem is similar to continuous bag-of-words. We build a model to predict a word given the word vector of the surrounding words plus the paragraph vector of the paragraph which the words are from. See image below for the model.
 
 ![Paragraph Vector Training Model](/assets/img/machine-learning-papers\2018\distributed-representations-of-sentences-and-documents-1.JPG){: .align-center}
 
