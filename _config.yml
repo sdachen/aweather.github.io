@@ -98,7 +98,7 @@ analytics:
 # Site Author
 author:
   name             : "Scott Deeann Chen"
-  avatar           : "assets/img/site/bio.JPG"
+  avatar           : "assets/img/site/bio.jpg"
   bio              : "Lifelong learner, machine learning engineer at Twitter."
   location         : "San Francisco, CA"
   email            :
